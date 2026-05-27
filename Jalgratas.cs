@@ -1,20 +1,14 @@
-// Klass Jalgratas – ei kuluta kütust, ainult vahemaa
 namespace Soidukid
 {
     public class Jalgratas : ISoiduk
     {
-        private double _vahemaa; // kilomeetrites
+        private double _vahemaa;
 
-        /// <summary>
-        /// Loob uue Jalgratas objekti.
-        /// </summary>
-        /// <param name="vahemaa">Läbitav vahemaa kilomeetrites</param>
         public Jalgratas(double vahemaa)
         {
             _vahemaa = vahemaa;
         }
 
-        // Jalgratas ei kasuta kütust – kulu on 0
         public double ArvutaKulu() => 0.0;
 
         public double ArvutaVahemaa() => _vahemaa;
