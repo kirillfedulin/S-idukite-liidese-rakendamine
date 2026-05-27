@@ -9,13 +9,14 @@ namespace Soidukid
             _vahemaa = vahemaa;
         }
 
-        public double ArvutaKulu() => 0.0;
-
-        public double ArvutaVahemaa() => _vahemaa;
-
-        public override string ToString()
+        public double ArvutaKulu()
         {
-            return $"Jalgratas | Vahemaa: {_vahemaa} km, Kulu: 0.00 € (kütusevaba)";
+            return 0.0;
+        }
+
+        public double ArvutaVahemaa()
+        {
+            return _vahemaa;
         }
     }
 }

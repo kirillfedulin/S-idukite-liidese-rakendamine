@@ -7,9 +7,4 @@
     <RootNamespace>Soidukid</RootNamespace>
     <StartupObject>Soidukid.Program</StartupObject>
   </PropertyGroup>
-  <ItemGroup>
-    <Content Include="soidukid.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
 </Project>

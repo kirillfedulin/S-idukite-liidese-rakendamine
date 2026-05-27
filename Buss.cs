@@ -21,12 +21,9 @@ namespace Soidukid
             return koguKulu / _reisijaid;
         }
 
-        public double ArvutaVahemaa() => _vahemaa;
-
-        public override string ToString()
+        public double ArvutaVahemaa()
         {
-            return $"Buss | Vahemaa: {_vahemaa} km, Kulu/reisija: {ArvutaKulu():F2} €" +
-                   $" ({_reisijaid} reisijat, kütusekulu {_kytusekulu} l/100km)";
+            return _vahemaa;
         }
     }
 }
